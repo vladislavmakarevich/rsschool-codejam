@@ -1,4 +1,4 @@
-const sumOfOther = (arr) => {
+module.exports = sumOfOther = (arr) => {
     let sum = 0;
     const result = [];
     let len = arr.length;
@@ -9,4 +9,4 @@ const sumOfOther = (arr) => {
         result[i] = sum - arr[i];
     }
     return result;
-}
+};
